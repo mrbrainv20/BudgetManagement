@@ -73,9 +73,9 @@ const App: () => Node = () => {
         <Header />
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            backgroundColor: 'red'
           }}>
-          <Section title="Step One">
+          <Section title="Step 2">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+    color: 'green'
   },
 });
 
